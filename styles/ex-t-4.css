@@ -1,0 +1,93 @@
+.main-container{
+  width: 550px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 400px;
+  height: 500px;
+  margin-right: 400px;
+  
+}
+
+.id-profile{
+  padding-top: 80px;
+  margin-left: 200px;
+  padding-bottom: 20px;
+}
+.profile{
+  cursor: pointer;
+
+}
+.username-div{
+  box-shadow: 0 2px 2px -2px rgb(59, 58, 58);
+  width: 430px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+
+.username{
+  width: 370px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 18px;
+  
+  outline: none;
+  border-width: 0px;
+  margin-right: 0px;
+
+}
+.user-icon{
+  width: 18px;
+  margin-left: 30px;
+  cursor: pointer;
+  
+  
+}
+.password-div{
+  box-shadow: 0 2px 2px -2px rgb(59, 58, 58);
+  margin-top: 35px;
+  width: 430px;
+  margin-left: 60px
+
+  
+  
+
+}
+.password{
+  width: 370px;
+  padding-top: 10px;
+  
+  font-family: Arial;
+  font-size: 18px;
+  outline: none;
+  border-width: 0px;
+  }
+  .eye-icon{
+  width: 18px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.login{
+  margin-left: 60px;
+  margin-top: 75px;
+  
+}
+
+.login-button{
+  background-color: rgb(236, 45, 77);
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 30px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+@media (max-width:970px){
+  .main-container{
+    margin-left: 0px;
+  }
+}

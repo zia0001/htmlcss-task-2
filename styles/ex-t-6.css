@@ -1,0 +1,319 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.top-row{
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 0%;
+  margin-left: 0px;
+
+} 
+.nike-logo{
+  width: 50px;
+ margin-left: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cart-icon{
+  width: 20px;
+  display: inline-block;
+  margin-left: 955px;
+  vertical-align: middle;
+}
+.cart-items{
+  display: inline-block;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+.join{
+  display: inline-block;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+.log-in{
+  font-weight: bolder;
+  margin-left: 50px;
+  display: inline-block;
+}
+.second-row{
+  margin-left: 30px;
+  margin-top: 10px;
+  display: block;
+  
+}
+
+.arrow-icon{
+  width: 10px;
+  display: inline-block;
+}
+.free-shipping{
+display: inline-block;
+color: rgb(0, 183, 255);
+text-decoration: underline;
+}
+.cylinder{
+  width: 18px;
+  margin-left: 850px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ship-now{
+  color: rgb(13, 13, 14);
+text-decoration: underline;
+display: inline-block;
+margin-left: px;
+}
+.camera{
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 29px;
+  display: inline-block;
+}
+.live-cam{
+  display: inline-block;
+  text-decoration: underline;
+  
+}
+.third-row{
+  margin-left: 165px;
+  margin-top: 30px;
+  background-color: rgb(241, 240, 240);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.third-row-des{
+  color: rgb(255, 171, 15);
+  display: inline-block;
+  margin-left: 10px;
+  padding-right: 76px;
+
+
+}
+.new-members-discount{
+  margin-left: 10px;
+  padding-bottom: 15px;
+}
+.see-more{
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.forth-row{
+  width: 588px;
+  margin-left: 165px;
+  background-color: lightgray;
+  display: inline-block;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.fifth-row{
+  width: 588px;
+  height: 200px;
+  margin-left: 165px;
+  margin-top: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+
+}
+.shoes-1{
+  width: 150px;
+  margin-left: 20px;
+  
+  display: inline-block;
+}
+.shoes-1-name{
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  margin-left: 13px;
+}
+.shoe-1-price{
+  margin-left: 160px;
+  color: rgb(255, 171, 15);
+
+}
+.shoe1-style{
+  color: rgb(126, 120, 120);
+}
+.shoe1-size{
+  color: rgb(126, 120, 120);
+}
+.shoe1-id{
+  color: rgb(126, 120, 120);
+
+}
+
+.shoe1-design-id{
+  color: rgb(126, 120, 120);
+
+}
+.remove-button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 12px;
+  margin-left: 167px;
+  border-width: 1px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-color: gainsboro;
+  font-weight: bolder;
+  display: inline-block;
+  cursor: pointer;
+}
+.edit-button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-width: 1px;
+  padding-right: 37px;
+  padding-left: 37px;
+  border-color: gainsboro;
+  font-weight: bolder;
+  display: inline-block;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.aside-tag{
+  float: right;
+  margin-top: 30px;
+  background-color: black;
+  margin-right: 140px;
+  padding-right: 60px;
+  width: 325px;
+}
+.summary{
+  color: white;
+  display: block;
+  font-family: Arial;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.prond-code{
+  color: white;
+  font-family: Arial;
+  margin-top: 52px;
+  margin-left: 10px;
+  margin-right:5px;
+  display: inline-block;
+
+}
+.down-arrow{
+  
+  background-color: rgb(0, 0, 0);
+  width: 20px;
+  display: inline-block;
+ border-radius: 19px;
+ vertical-align: middle;
+}
+.orange-dot{
+  width: 20px;
+  border-radius: 19px;
+  vertical-align: middle;
+  margin-left: 9px;
+}
+.sub-total{
+  color: white;
+  font-family: Arial;
+  margin-left: 10px;
+  margin-right:5px;
+  display: inline-block;
+  margin-top: 40px;
+}
+.orange-dot2{
+  width: 20px;
+  border-radius: 19px;
+  vertical-align: middle;
+  margin-left: 9px;
+  display: inline-block;
+}
+.total{
+  color: white;
+  display: inline-block;
+  font-family: Arial;
+  margin-left: 138px;
+}
+.discount-on-shop{
+  color: white;
+  font-family: Arial;
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.discount-amount{
+  color: white;
+  font-family: Arial;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: 40px;
+}
+.tax{
+  color: white;
+  font-family: Arial;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.shoes-tax{
+  width: 30px;
+  vertical-align: middle;
+  margin-left: 250px;
+}
+.total-bill{
+  color: white;
+  font-family: Arial;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.bill{
+  color: white;
+  font-family: Arial;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 200px;
+  font-weight: bold;
+}
+.checkout-button{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 132px;
+  padding-left: 132px;
+  margin-top: 50px;
+  background-color: rgb(255, 171, 15);
+ margin-left: 17px; cursor: pointer;
+}
+.or{
+  color: white;
+  font-family: Arial;
+  margin-top: 40px;
+  font-weight: bold;
+  margin-left: 180px;
+  font-style: oblique;
+}
+.check-site{
+  color: rgb(10, 1, 1);
+  font-family: Arial;
+  margin-top: 30px;
+  font-weight: bold;
+  background-color: white;
+  width: 335px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 20px;
+  margin-right: 6px;
+  font-size: 14px;
+  vertical-align: sub;
+  cursor: pointer;
+
+}
+.pal{
+  font-size: 23px;
+  color: rgb(0, 195, 255)
+}
+.pay{
+  font-size: 23px;
+  color: rgb(18, 18, 182);
+  padding-top: 0px;
+  vertical-align: bottom;
+  margin-left: 6px;
+  font-style: oblique;
+}

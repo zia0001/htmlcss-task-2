@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+ } 
+      .menu-line{
+        background-color: rgb(30, 180, 16);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        display: inline-block;
+        width: 69%;
+       
+      }
+      .hamburger{
+        display: inline-block;
+        margin-right: 9px;
+        margin-left: 19px;
+        cursor: pointer;
+        margin-top: 4px;
+      }
+      div.burger{
+        width: 20px;
+        height: 2px;
+        background-color: rgb(243, 247, 243);
+        margin: 6px,0;
+        margin-bottom: 3px;
+        
+      }
+      div.burger2{
+        width: 30px;
+        height: 1px;
+        background-color: rgb(11, 12, 11);
+        margin: 6px,0;
+        margin-bottom: 3px;
+         
+      }
+      div.burger3{
+        width: 25px;
+        height: 1px;
+        background-color: rgb(11, 12, 11);
+        margin: 6px,0;
+        
+       
+        
+      }
+      .main-heading{
+        display: inline-block;
+        vertical-align: top;
+        color: white;
+        font-family: Arial;
+      }
+      .search-icon{
+        display: inline-block;
+        margin-left: 500px;
+         
+        
+      }
+      
+      .calary-stalk{
+        margin-top: 0px;
+        margin: 0%;
+        
+        
+      }
+      .calary-stalk2{
+        display: grid;
+        grid-template-columns: 57px 1fr;
+        grid-template-rows: 57px 1fr;
+        column-gap: 45px;
+        row-gap: 0px;
+        margin-top: 5px;
+        
+      }
+      .footer-div{
+        display: inline-block;
+        display: grid;
+        grid-template-columns: 105px 1fr;
+        column-gap: 0px;
+        row-gap: 17px;
+        width: 69%;
+        
+      }
+      
+      .cart{
+        width: 100px;
+        display: inline-block;
+      }
+      .calary-stalk-text{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+        
+      }
+      .item-name{
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 0px;
+      }
+      .buy-button{
+        display: inline-block;
+        color: white;
+        margin-left: 450px;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: rgb(30, 180, 16);
+        border: none;
+        font-weight: bold;
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+      .half-buy-button{
+        display: inline-block;
+        color: white;
+        margin-left: 470px;
+        width: 34px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: rgb(30, 180, 16);
+        border: none;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 0%;
+        cursor: pointer;
+      }
+      .half-buy-button2{
+        display: inline-block;
+        color: white;
+        margin-left: 508px;
+        width: 34px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: rgb(30, 180, 16);
+        border: none;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 0%;
+        cursor: pointer;
+      }
+      .half-right-buy-button2{
+        display: inline-block;
+        color: white;
+        width: 34px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: rgb(30, 180, 16);
+        border: none;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+        cursor: pointer;
+      }
+      .add-items{
+        display: inline-block;
+        margin-left: 8px;
+        margin-right: 8px;
+        font-weight: bolder;
+        vertical-align: top;
+        margin-top: 6px;
+      }
+      .quantity-per-price{
+        margin-top: 10px;
+      }
+      .half-right-buy-button{
+        display: inline-block;
+        color: white;
+        width: 34px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: rgb(30, 180, 16);
+        border: none;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+        cursor: pointer;
+      }
+      
+      
+      .quantity1{display: inline-block;
+        
+      }
+      .quantity2{display: inline-block;
+        margin-left: 129px;
+      }
+      .quantity3{display: inline-block;
+        margin-left: 129px;
+      }
+      .quantity4{display: inline-block;
+      margin-left: 129px;
+      }
+      .items-container{
+        margin-left: 16px;
+        margin-top: 7px;
+      }
+      .total-price{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        background-color: rgb(240, 206, 15);
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+        font-weight: bolder;
+      }
+      .view-cart{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        background-color: rgb(255, 217, 0);
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+        
+        
+      }
+      .arrow{
+        margin-left: 100px;
+      }
+      .main-container{
+        margin-left: 100px;
+        width: 90%;
+        box-shadow: 10px -10px 5px #a5a3a3;
+
+      }
+      
+      
+      
+      
+      
+
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+    <div class="menu-line">
+      <div class="hamburger">
+        <div class="burger"></div>
+        <div class="burger"></div>
+        <div class="burger"></div>
+      </div>
+        <div class="main-heading"><p>Golden.Corral-Addition<span class="search-icon"> Search &#128269;</span></p>
+          
+        </div>
+        
+      </div>
+      <div class="items-container">
+        
+      <div class="calary-stalk">
+        <img class="cart" src="pictures/shopping-cart-3154149_1280.jpg">
+        <div class="calary-stalk-text">
+          <h2 class="item-name">Calary Stalk</h2>
+          <button class="buy-button">Buy</button>
+          <div class="quantities-per-price">
+            <p class="quantity1">1piece<br>66$</p>
+          <p class="quantity2">2piece<br>102$</p>
+          <p class="quantity3">3piece<br>1306$</p>
+          <p class="quantity4">4piece<br>386$</p>
+          </div>
+        </div>
+      </div>
+      <div class="calary-stalk">
+        <img class="cart" src="pictures/cucumber.jfif">
+        <div class="calary-stalk-text">
+          <h2 class="item-name">cucumber</h2>
+          <button class="half-buy-button">-</button>
+          <p class="add-items">2</p>
+          <button class="half-right-buy-button">+</button>
+          <div class="quantities-per-price">
+            <p class="quantity1">1piece<br>66$</p>
+          <p class="quantity2">2piece<br>102$</p>
+          <p class="quantity3">3piece<br>1306$</p>
+          <p class="quantity4">4piece<br>386$</p>
+          </div>
+        </div>
+      </div>
+      <div class="calary-stalk">
+        <img class="cart" src="pictures/jeans.jfif">
+        <div class="calary-stalk-text">
+          <h2 class="item-name">jeans</h2>
+          <button class="half-buy-button2">-</button>
+          <p class="add-items">3</p>
+          <button class="half-right-buy-button2">+</button>
+          <div class="quantities-per-price">
+            <p class="quantity1">1piece<br>66$</p>
+          <p class="quantity2">2piece<br>102$</p>
+          <p class="quantity3">3piece<br>1306$</p>
+          <p class="quantity4">4piece<br>386$</p>
+          </div>
+        </div>
+      </div>
+      <div class="calary-stalk">
+        <img class="cart" src="pictures/lemon.jfif">
+        <div class="calary-stalk-text">
+          <h2 class="item-name">letlusLbuns</h2>
+          <button class="buy-button">Buy</button>
+          <div class="quantities-per-price">
+            <p class="quantity1">1piece<br>66$</p>
+          <p class="quantity2">2piece<br>102$</p>
+          <p class="quantity3">3piece<br>1306$</p>
+          <p class="quantity4">4piece<br>386$</p>
+          </div>
+        </div>
+      </div>
+      <div class="calary-stalk">
+        <img class="cart" src="pictures/nuts.jfif">
+        <div class="calary-stalk-text">
+          <h2 class="item-name">NuttBags</h2>
+          <button class="half-buy-button">-</button>
+          <p class="add-items">1</p>
+          <button class="half-right-buy-button">+</button>
+          <div class="quantities-per-price">
+            <p class="quantity1">1piece<br>66$</p>
+          <p class="quantity2">2piece<br>102$</p>
+          <p class="quantity3">3piece<br>1306$</p>
+          <p class="quantity4">4piece<br>386$</p>
+          </div>
+        </div>
+      </div>
+      <div class="calary-stalk">
+        <img class="cart" src="pictures/peanut butter.jfif">
+        <div class="calary-stalk-text">
+          <h2 class="item-name">peanuts jar</h2>
+          <button class="buy-button">Buy</button>
+          <div class="quantities-per-price">
+            <p class="quantity1">1piece<br>66$</p>
+          <p class="quantity2">2piece<br>102$</p>
+          <p class="quantity3">3piece<br>1306$</p>
+          <p class="quantity4">4piece<br>386$</p>
+          </div>
+        </div>
+        <div class="calary-stalk2">
+          <img class="cart" src="pictures/soya sauce.jfif">
+          <div class="calary-stalk-text">
+            <h2 class="item-name">soyasaucep</h2>
+            <button class="buy-button">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-div">
+        <button class="total-price">$53.97</button>
+        <button class="view-cart">VIEW CART(08) <span class="arrow">&rarr;</span></button>
+      </div>
+      </div>
+    </div>
+      
+      
+    
+        
+        
+        
+  </body>
+</html>

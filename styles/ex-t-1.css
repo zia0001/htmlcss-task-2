@@ -1,0 +1,71 @@
+.first-line-images{
+  margin-left: 130px;
+}
+.image1{
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image2{
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 194px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.image3{
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 40px;
+}
+.second-line-des{
+  margin-left: 120px;
+  background-color: gainsboro;
+  display: inline-block;
+  margin-top: 9px;
+  height: 250px;
+}
+.name{
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.education{
+  color: rgb(126, 119, 119);
+  padding-left: 20px;
+}
+.description{
+  width: 320px;
+  padding-left: 20px;
+}
+.button{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: rgb(51, 123, 230);
+  color: white;
+  border: none;
+  
+}
+.second-line-des2{
+  margin-left: 26px;
+  background-color: gainsboro;
+  display: inline-block;
+  height: 250px;
+  
+}
+.name2{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description{
+  width: 300px;
+}
+.name2{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
